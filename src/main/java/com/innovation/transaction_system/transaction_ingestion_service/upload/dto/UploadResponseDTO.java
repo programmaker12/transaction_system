@@ -7,6 +7,9 @@ public class UploadResponseDTO {
     private Long fileId;
     private String message;
 
+    public UploadResponseDTO() {
+
+    }
     public UploadResponseDTO(Long fileId, String message) {
         this.fileId = fileId;
         this.message = message;
